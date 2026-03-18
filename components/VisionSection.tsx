@@ -57,32 +57,32 @@ export const VisionSection = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative"
+            className="relative mt-12 lg:mt-0"
           >
-            <div className="aspect-square bg-gradient-to-br from-emerald-500/20 to-blue-500/20 rounded-3xl border border-white/10 overflow-hidden flex items-center justify-center p-12">
-              <div className="grid grid-cols-2 gap-4 w-full h-full">
-                <div className="bg-emerald-500/20 rounded-2xl flex flex-col items-center justify-center p-6 text-center">
-                  <span className="text-4xl font-display font-bold text-emerald-400 mb-2">১০X</span>
-                  <span className="text-sm text-slate-400">ইকোসিস্টেম গ্রোথ</span>
+            <div className="aspect-square bg-gradient-to-br from-emerald-500/20 to-blue-500/20 rounded-3xl border border-white/10 overflow-hidden flex items-center justify-center p-4 sm:p-12">
+              <div className="grid grid-cols-2 gap-3 sm:gap-4 w-full h-full">
+                <div className="bg-emerald-500/20 rounded-2xl flex flex-col items-center justify-center p-3 sm:p-6 text-center">
+                  <span className="text-xl sm:text-4xl font-display font-bold text-emerald-400 mb-1 sm:mb-2">১০X</span>
+                  <span className="text-[10px] sm:text-sm text-slate-400">ইকোসিস্টেম গ্রোথ</span>
                 </div>
-                <div className="bg-blue-500/20 rounded-2xl flex flex-col items-center justify-center p-6 text-center translate-y-8">
-                  <span className="text-4xl font-display font-bold text-blue-400 mb-2">১০০%</span>
-                  <span className="text-sm text-slate-400">ফ্রি এক্সেস</span>
+                <div className="bg-blue-500/20 rounded-2xl flex flex-col items-center justify-center p-3 sm:p-6 text-center translate-y-3 sm:translate-y-8">
+                  <span className="text-xl sm:text-4xl font-display font-bold text-blue-400 mb-1 sm:mb-2">১০০%</span>
+                  <span className="text-[10px] sm:text-sm text-slate-400">ফ্রি এক্সেস</span>
                 </div>
-                <div className="bg-purple-500/20 rounded-2xl flex flex-col items-center justify-center p-6 text-center -translate-y-8">
-                  <span className="text-4xl font-display font-bold text-purple-400 mb-2">৫কে+</span>
-                  <span className="text-sm text-slate-400">ভবিষ্যৎ লিডার</span>
+                <div className="bg-purple-500/20 rounded-2xl flex flex-col items-center justify-center p-3 sm:p-6 text-center -translate-y-3 sm:-translate-y-8">
+                  <span className="text-xl sm:text-4xl font-display font-bold text-purple-400 mb-1 sm:mb-2">৫কে+</span>
+                  <span className="text-[10px] sm:text-sm text-slate-400">ভবিষ্যৎ লিডার</span>
                 </div>
-                <div className="bg-orange-500/20 rounded-2xl flex flex-col items-center justify-center p-6 text-center">
-                  <span className="text-4xl font-display font-bold text-orange-400 mb-2">২৪/৭</span>
-                  <span className="text-sm text-slate-400">গ্লোবাল কানেক্টিভিটি</span>
+                <div className="bg-orange-500/20 rounded-2xl flex flex-col items-center justify-center p-3 sm:p-6 text-center">
+                  <span className="text-xl sm:text-4xl font-display font-bold text-orange-400 mb-1 sm:mb-2">২৪/৭</span>
+                  <span className="text-[10px] sm:text-sm text-slate-400">গ্লোবাল কানেক্টিভিটি</span>
                 </div>
               </div>
             </div>
             
             {/* Floating badge */}
-            <div className="absolute -bottom-6 -right-6 bg-white text-slate-900 p-6 rounded-2xl shadow-2xl max-w-[200px]">
-              <p className="text-sm font-bold leading-tight">&quot;আমরা বিশ্বাস করি সম্মিলিত প্রচেষ্টাই বড় পরিবর্তনের চাবিকাঠি।&quot;</p>
+            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-white text-slate-900 p-3 sm:p-6 rounded-2xl shadow-2xl max-w-[130px] sm:max-w-[200px] z-20">
+              <p className="text-[10px] sm:text-sm font-bold leading-tight">&quot;আমরা বিশ্বাস করি সম্মিলিত প্রচেষ্টাই বড় পরিবর্তনের চাবিকাঠি।&quot;</p>
             </div>
           </motion.div>
         </div>

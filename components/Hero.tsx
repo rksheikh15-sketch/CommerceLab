@@ -28,7 +28,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-slate-900 leading-[1.2] mb-8 tracking-tight"
+          className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-slate-900 leading-[1.2] mb-8 tracking-tight"
         >
           ই-কমার্স ফাউন্ডারদের <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-slate-800 to-slate-900">

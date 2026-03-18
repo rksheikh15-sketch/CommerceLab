@@ -75,7 +75,7 @@ export const CommunityImpact = () => {
         </div>
 
         {/* Detailed Stats / Roadmap */}
-        <div className="mt-24 p-12 bg-slate-50 rounded-[40px] border border-slate-100 relative overflow-hidden">
+        <div className="mt-24 p-6 md:p-12 bg-slate-50 rounded-[40px] border border-slate-100 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
           
           <div className="grid lg:grid-cols-2 gap-16 items-center">
