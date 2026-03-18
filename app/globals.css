@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-bangla), var(--font-sans);
+  --font-display: var(--font-display);
+  --font-bangla: var(--font-bangla);
+}
+
+@layer base {
+  * {
+    @apply border-slate-200;
+  }
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
+
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
+
+.dark-glass {
+  @apply bg-slate-900/80 backdrop-blur-md border border-slate-800/50;
+}
